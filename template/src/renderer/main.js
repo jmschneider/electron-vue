@@ -8,7 +8,7 @@ import App from './App'
 import router from './router'
 {{/isEnabled}}
 {{#isEnabled plugins 'vuex'}}
-import store from './store'
+import store from '../shared/store'
 {{/isEnabled}}
 
 {{#isEnabled plugins 'vue-electron'}}
